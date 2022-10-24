@@ -8,6 +8,7 @@ import 'package:shop_app/newcategorie.dart';
 import 'package:shop_app/slapshscreen.dart';
 
 import 'New_mainscreen.dart';
+import 'Screens/splash_screen.dart';
 import 'categories.dart';
 import 'slider.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomNavigationBars(),
+      home: SplashScreen(),
     );
   }
 }
